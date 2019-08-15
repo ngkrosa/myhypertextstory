@@ -1,0 +1,360 @@
+html {
+
+	width:100vw;
+	height:100vh;
+	margin-bottom: 0 auto;
+}
+
+
+body {
+
+	background-color: FloralWhite;
+	font-family: 'Crimson Text', serif;
+
+/*from https://codepen.io/yemon/pen/dzgmxJ*/
+			font-size:24px;
+  			padding-top:40vh;
+  			height:100vh;
+  			overflow:hidden;
+  			-webkit-backface-visibility: hidden;
+  			-webkit-perspective: 1000;
+  			-webkit-transform: translate3d(0,0,0);
+}
+
+h4 {
+  font-size: 12px;
+
+}
+
+.bus {
+  background-color: FloralWhite;
+
+/*from https://codepen.io/yemon/pen/dzgmxJ*/
+      font-size:24px;
+        padding-top:5vh;
+        height:100vh;
+        overflow:hidden;
+        -webkit-backface-visibility: hidden;
+        -webkit-perspective: 1000;
+        -webkit-transform: translate3d(0,0,0);
+}
+
+.newyork {
+  background-color: FloralWhite;
+
+/*from https://codepen.io/yemon/pen/dzgmxJ*/
+      font-size:24px;
+        padding-top:60vh;
+        padding-left:60vh;
+        height:250vh;
+        overflow:hidden;
+        -webkit-backface-visibility: hidden;
+        -webkit-perspective: 1000;
+        -webkit-transform: translate3d(0,0,0);
+}
+
+.tj {
+
+    background-color: FloralWhite;
+/*from https://codepen.io/yemon/pen/dzgmxJ*/
+      font-size:24px;
+        padding-top:35vh;
+        padding-left:60vh;
+        height:100vh;
+        overflow:hidden;
+        -webkit-backface-visibility: hidden;
+        -webkit-perspective: 1000;
+        -webkit-transform: translate3d(0,0,0);
+
+}
+
+
+
+.kid {
+
+    background-color: FloralWhite;
+/*from https://codepen.io/yemon/pen/dzgmxJ*/
+      font-size:24px;
+        padding-top:10vh;
+        padding-left:10vh;
+        height:100vh;
+        overflow:hidden;
+        -webkit-backface-visibility: hidden;
+        -webkit-perspective: 1000;
+        -webkit-transform: translate3d(0,0,0);
+
+}
+
+.phone {
+
+    background-color: FloralWhite;
+/*from https://codepen.io/yemon/pen/dzgmxJ*/
+      font-size:24px;
+        padding-top:100vh;
+        padding-left:20vh;
+        height:100vh;
+        overflow:hidden;
+        -webkit-backface-visibility: hidden;
+        -webkit-perspective: 1000;
+        -webkit-transform: translate3d(0,0,0);
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+	body {
+		background-color: PapayaWhip;
+	}
+}
+@media screen and (max-width: 800px) {
+	body {
+		background-color: PeachPuff;
+	}
+}
+@media screen and (max-width: 700px) {
+	body {
+		background-color: SeaShell;
+	}
+}
+@media screen and (max-width: 600px) {
+	body {
+		background-color: OldLace;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	body {
+		background-color: Linen;
+	}
+}
+
+/*from https://codepen.io/yemon/pen/dzgmxJ*/
+div {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+/*.personA1 {
+  animation: showup 7s initial;
+}*/
+
+.personA2 {
+  width:0px;
+  font-size:24px;
+  background-color: DarkSalmon;
+  font-weight: bold;
+  animation: revealshort 9s infinite;
+}
+
+/*.personA2  span {
+  margin-left:-350px;
+  animation: slidein 7s infinite;
+}
+*/
+
+/*.personB1 {
+  animation: showup 10s initial;
+}*/
+
+.personB2 {
+  width:0px;
+  background-color: pink;
+  font-size:24px;
+  font-weight: bold;
+  animation: reveal 9s infinite;
+}
+
+/*.personB2  span {
+  margin-left:-350px;
+  animation: slidein 7s infinite;
+  animation-iteration-count: 1;
+}*/
+
+
+
+.personC1 {
+  /*animation: showup 7s initial;*/
+  background-color: DarkSalmon;
+
+}
+
+.personC2 {
+  width:0px;
+  font-size:24px;
+  /*background-color: DarkSalmon;*/
+  font-weight: bold;
+  animation: reveal 9s infinite;
+}
+
+/*.personC2  span {
+  margin-left:-350px;
+  animation: slidein 7s infinite;
+}
+*/
+
+.personD1 {
+  /*animation: showup 10s initial;*/
+  background-color: pink;
+}
+
+.personD2 {
+  width:0px;
+/*  background-color: pink;*/
+  font-size:24px;
+  font-weight: bold;
+  animation: revealD 9s infinite;
+}
+
+/*.personE2  span {
+  margin-left:-350px;
+  animation: slidein 7s infinite;
+  animation-iteration-count: 1;
+}*/
+
+
+/*.personE1 {
+  animation: showup 10s initial;
+/*  background-color: pink;
+}
+*/
+.personE2 {
+  width:0px;
+  background-color: DarkSalmon;
+/*  display: block;*/
+  font-size:24px;
+  font-weight: bold;
+  animation: revealH 9s infinite;
+}
+
+/*.personD2  span {
+  margin-left:-350px;
+  animation: slidein 7s infinite;
+  animation-iteration-count: 1;
+}*/
+
+.personH1 {
+  /*animation: showup 10s initial;*/
+ /* background-color: pink;*/
+}
+
+.personH2 {
+  width:0px;
+  background-color: pink;
+  font-size:24px;
+  font-weight: bold;
+  animation: revealH 9s infinite;
+}
+
+
+
+
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:500px; }
+    20% { margin-left:-500px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes revealshort {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:300px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:300px;}
+}
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:650px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:650px;}
+}
+
+
+@keyframes revealH {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:1000px;}
+    80% {opacity:1;2000px;}
+    100% {opacity:0;width:3500px;}
+}
+
+@keyframes revealD {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:800px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:800px;}
+}
+
+@keyframes revealE {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:800px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:800px;}
+}
+
+#rotate{
+  width:300px;
+  height:90px;
+  background-color:DarkSalmon;
+  /*border: 9px solid black;*/
+  margin-bottom: 120px;
+
+}
+
+#rotate:hover{
+  transform: rotate(60deg);
+}
+
+#rotatesq{
+  width:200px;
+  height:100px;
+  background-color:DarkSalmon;
+  /*border: 9px solid black;*/
+  margin-bottom: 100px;
+
+}
+
+#rotatesq:hover{
+  transform: rotate(45deg);
+}
+
+#rotateskinny{
+  width:200px;
+  height:200px;
+  background-color:FloralWhite 50;
+   border: 9px solid DarkSalmon;
+  margin-bottom: 200px;
+
+}
+#rotateskinny:hover{
+  transform: rotate(45deg);
+}
+
+
+
+
+#rotatepink{
+  width:90px;
+  height:150px;
+  background-color:pink;
+  /*border: 9px solid black;*/
+  margin-bottom: 60px;
+
+}
+
+#rotatepink:hover{
+  transform: rotate(-20deg);
+}
