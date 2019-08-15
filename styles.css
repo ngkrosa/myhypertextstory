@@ -12,7 +12,7 @@ body {
 
 /*from https://codepen.io/yemon/pen/dzgmxJ*/
 			font-size:24px;
-  			padding-top:40vh;
+  			padding-top:24vh;
   			height:100vh;
   			overflow:hidden;
   			-webkit-backface-visibility: hidden;
@@ -286,11 +286,10 @@ div {
   background-color:DarkSalmon;
   /*border: 9px solid black;*/
   margin-bottom: 120px;
-
 }
 
 #rotate:hover{
-  transform: rotate(60deg);
+  transform: rotate(5deg);
 }
 
 #rotatesq{
@@ -305,20 +304,6 @@ div {
 #rotatesq:hover{
   transform: rotate(45deg);
 }
-
-#rotateskinny{
-  width:100px;
-  height:150px;
-  background-color:FloralWhite 50;
-   border: 9px solid DarkSalmon;
-  margin-bottom: 100px;
-
-
-}
-#rotateskinny:hover{
-  transform: rotate(30deg);
-}
-
 
 
 
