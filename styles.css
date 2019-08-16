@@ -80,6 +80,19 @@ h4 {
         -webkit-transform: translate3d(0,0,0);
 }
 
+.type7 {
+        font-size:24px;
+        padding-top:15vh;
+        padding-left:50vh;
+        height:100vh;
+        overflow:hidden;
+        -webkit-backface-visibility: hidden;
+        -webkit-perspective: 1000;
+        -webkit-transform: translate3d(0,0,0);
+}
+
+}
+
 @media screen and (max-width: 992px) {
 	body {
 		background-color: PapayaWhip;
@@ -226,6 +239,17 @@ div {
 }
 
 
+.person6 {
+  width:0px;
+  background-color: pink;
+  font-size:24px;
+  font-weight: bold;
+  animation: revealD 9s infinite;
+}
+
+
+
+
 @keyframes showup {
     0% {opacity:0;}
     20% {opacity:1;}
@@ -283,9 +307,11 @@ div {
 #rotate{
   width:300px;
   height:90px;
+  text-align: center;
+  padding-top: 35px;
   background-color:DarkSalmon;
   /*border: 9px solid black;*/
-  margin-bottom: 120px;
+  margin-bottom: 10px;
 }
 
 #rotate:hover{
